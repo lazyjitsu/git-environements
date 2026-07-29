@@ -1,4 +1,4 @@
-name: Env Demo
+name: EnvDemo
 on:
   workflow_dispatch: # launch manually 
 
