@@ -18,5 +18,6 @@ jobs:
 
     needs: STAGE
     steps:
-      -name: Deploy
-       run: echo "Deployed to Prod"
+      - name: Deploy
+        run: "deploy to Prod"
+  
