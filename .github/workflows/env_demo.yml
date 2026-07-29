@@ -1,4 +1,5 @@
 name: EnvDemo
+
 on:
   workflow_dispatch: # launch manually 
 
@@ -22,5 +23,5 @@ jobs:
     needs: STAGE
     steps:
       - name: Deploy
-        run: "deploy to Prod"
+        run: echo "deploy to Prod"
   
