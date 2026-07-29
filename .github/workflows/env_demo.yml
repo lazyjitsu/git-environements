@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch: # launch manually 
+
+jobs:
+  DEV:
+    runs-on: unbuntu-latest
+    environment: Dev
+    steps:
+    - name: Deploy
+    run: echo "Deployed to Dev"
+
+  Stage:
+    runs-on: ubuntu-latest
+
+  PROD:
+
+    runs-on: ubuntu-latest
+
+    needs: STAGE
+    steps:
+      -name: Deploy
+       run: echo "Deployed to Prod"
