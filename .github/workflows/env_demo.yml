@@ -5,8 +5,8 @@ jobs:
   DEV:
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy
-    run: echo "Deployed to Dev"
+      - name: Deploy
+        run: echo "Deployed to Dev"
 
   Stage:
     runs-on: ubuntu-latest
