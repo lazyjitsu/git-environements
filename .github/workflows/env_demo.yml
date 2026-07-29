@@ -4,7 +4,6 @@ on:
 jobs:
   DEV:
     runs-on: unbuntu-latest
-    # environment: Dev
     steps:
     - name: Deploy
     run: echo "Deployed to Dev"
